@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +9,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+=======
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+>>>>>>> 5c2df2ee285032538fbf2c3b0254926bb77681b2
 }
 
 button {
