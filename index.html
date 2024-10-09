@@ -6,12 +6,21 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/input.css">
 </head>
 <body>
-    <header>
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-          </h1>
+    <header class="Center-flex w-[100%] h-24 absolute  ">
+        <img class="w- h-16 mx-16" src="./assets/images/logo.png" alt="Delizioso-logo">
+       <ul class="Center-flex gap-10">
+        <li><a class="hover:text-orange-400"  href="./index.html">Home</a></li>
+        <li><a  href="./menu.html">Menu</a></li>
+        <li><a  href="./about.html">About us</a></li>
+        <li><a  href="./online.html">Ordere online</a></li>
+        <li> <a  href="./reservation.html">Reservation</a></li>
+        <li><a  href="./contact.html">Contact us</a></li>
+       </ul>
+       <img class="mx-5" src="./assets/images/cart.png" alt="Shoping Cart">
+       <button class=" Center-flex w-32 h-12  bg-green-600 p-5 rounded-full text-white font-bold">Log in</button>
     </header>
     <main>
 
@@ -19,6 +28,6 @@
     <footer>
 
     </footer>
-
+   
 </body>
 </html>
