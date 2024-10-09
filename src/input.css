@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.farbe{
-    @apply text-2xl;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.Center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.Center-flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
+button {
+  border-radius: 25px;
 }
